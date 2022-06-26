@@ -1,0 +1,166 @@
+#title{
+  background-color: #ff4c68;
+  color: #fff;/*  it change the font color */
+}
+
+body{
+    font-family: "Montserrat";
+}
+
+h1, h2, h3, h4, h5{
+    font-family: "Montserrat";
+    font-weight: bold;
+}
+
+
+h2{
+  font-size: 3rem;
+}
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+
+/* navigation Bar */
+.navbar{
+  padding: 0 0 4.5rem;
+}
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "Montserrat";
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.Big-heading{
+    font-family: "Montserrat";
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+/* Download buttons */
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+/* image */
+
+.iphone-img{
+  width: 60%;
+  transform: rotate(23deg);
+  position: absolute;
+  z-index: 0;
+  right: 30%;
+}
+/* features */
+
+.feature-div{
+  padding: 7% 15%;
+  background-color: white;
+  text-align: center;
+  position: relative;
+}
+.feature-heading{
+  font-family: "Montserrat";
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.feature-text{
+  font-family: "Montserrat";
+  color: #8f8f8f;
+}
+
+.feature-box{
+  padding: 5%;
+}
+
+.icon:hover{
+  color: #ff4c68;
+}
+
+/* testimonial section */
+
+#testimonials{
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing */
+
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* footer*/
+#cta{
+    padding: 3% 15% 3%;
+    background-color: #ff4c68;
+    color: #fff;
+    text-align: center;
+}
+
+#cta h3{
+  font-family: "Montserrat";
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+.bottom-button{
+  margin: 5% 1%;
+}
+
+#footer{
+  margin: 5% 0% 5%;
+  text-align: center;
+}
+
+.footer-icon{
+  margin: 1% 1%;
+}
+/* Write media query at the end of css */
+@media (max-width: 1028px) {
+  #title{
+    text-align: center;
+  }
+  .iphone-img{
+    position: static;
+    transform: rotate(0deg);
+    /* rotation is absolute (not relative), 0deg means straight */
+  }
+}
